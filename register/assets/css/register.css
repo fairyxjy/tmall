@@ -1,0 +1,213 @@
+/*body{
+	font-size:0px;
+}*/
+/*头部样式*/
+.head{
+	width:1000px;
+	height:50px;
+	border-bottom:3px solid #ccc;
+	margin:0 auto;
+	text-align:center;
+	line-height:50px;
+	font-size:18px;
+}
+.head .head1{
+	float:left;
+	margin-left:140px;
+	width:200px;
+	border-bottom:3px solid #ff0036;
+}
+.head .head1 .head11{
+	color:#fff;
+	padding:3px 8px;
+	border-radius:40%;
+	background:#ff0036;
+	font-size:20px;
+}
+.head .head2{
+	float:left;
+	margin-left:60px;
+}
+.head .head1 .head12{
+	font-weight:bold;
+}
+.head .head2 .head21{
+	color:#fff;
+	border-radius:50%;
+	padding:5px 8px;
+	background:#ccc;
+}
+.head .head2 .head22{
+	color:#999;
+}
+/*遮罩层下样式*/
+.barr{
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:100px;
+	font-size:0px;
+}
+.barr .sj{
+    font: 14px arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+	color:#666;
+	display:inline-block;
+	margin-right:10px;
+}
+.barr .sel{
+	border-right:0;
+	padding:7px 8px 12px 8px;
+}
+.barr .sel .sel1{
+	display:inline-block;
+	float:left;
+	font:14px arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+	font-weight:700;
+}
+.barr .sel .sel2{
+	float:right;
+}
+.barr input{
+	padding:10px;
+}
+.barr .bar1{
+	margin-top:20px;
+}
+.barr .bar1 .yz{
+	font: 14px arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+	color:#666;
+	display:inline-block;
+	margin-left:-40px;
+}
+.barr .bar1  .you{
+	height:20px;
+	padding:10px 11px 8px 11px;
+	border:1px solid #ccc;
+	margin-left:8px;
+	color:#ccc;
+	font-size:12px;
+}
+.barr .bar1 .an{
+	display:inline-block;
+	color:#666;
+	padding:12px  80px 10px 20px;
+	background:#ccc;
+	font:12px arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+}
+.barr .xia{
+	width:300px;
+	height:30px;
+	padding:5px 20px;
+	margin:0 auto;
+}
+.barr .xia button{
+	color:#fff;
+	background:#ededed;
+	font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 40px;
+    margin-top:20px;
+}
+/*遮罩层样式*/
+.xiewrap{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+}
+.xie{
+	width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #3e3e3e;
+    border: 2px solid #dedede;
+    border-top: 2px solid #ff4a00;
+    background-color: #fff;
+    display:block;
+    position: absolute;
+    top:170px;
+    left:400px;
+    z-index: 100;
+    font-family:arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+    font-size:12px;
+}
+
+.xie .yi h3{
+	font:16px arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+	font-weight: bold;
+}
+.xie .yi .close{
+	position:absolute;
+	top:12px;
+	left:680px;
+	font:22px  arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+	color:#ff0036;
+}
+.xie .yi p{
+	margin-top:10px;
+}
+.xie .yi b{
+	text-decoration:underline;
+}
+.xie .yi .shen{
+	font-weight:bold;
+}
+.xie .yi .xy a{
+	color:#ff0036;
+	font-size:16px;
+	font-weight:bold;
+}
+.xie .yi .ty{
+	text-align:center;
+}
+.xie .yi  .ty .tong{
+	color:#fff;
+	padding:8px  40px;
+	font-size:16px;
+	background:#ff0036;
+	border:0;
+}
+/*拖拽小蜜样式*/
+.xm{
+	width:150px;
+	height:366px;
+	position:absolute;
+	z-index:101;
+	right: 393px;
+    top: 384px;
+	background: #f9f9f9;
+	font-family:Microsoft YaHei,STHeiti Light,sans-serif!important;
+}
+.xm  .xmpic{
+	width:161px;
+	height:109px;
+	background:url("../images/1.png");
+	background-size:161px 109px;
+}
+.xm ul li{
+	width:100%;
+	font-size:12px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 8px 1px;
+    line-height: 24px;
+    box-sizing: border-box;
+    max-height: 48px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.xm ul .zi{
+	text-align: center;
+	margin-top: 10px;
+}
+.xm ul .zi a{
+	color: #ff0036;
+	font-size: 14px;
+}
+.xm ul .zi img{
+	vertical-align: bottom;
+}

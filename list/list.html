@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>列表页</title>
+	<link rel="stylesheet" href="assets/css/list.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/iconfont.css">
+	<link rel="stylesheet" href="assets/css/iconfont3.css">
+	<script src="assets/js/ajax3.0.js"></script>
+</head>
+<body>
+<!--导航开始-->
+		<div class="nav-wrap clearfix">
+		<div class="nav area">
+			<div class="fl">
+				<span>天猫首页</span>
+				<span>喵,欢迎来天猫</span>
+				<a href="#">请登录</a>
+				<a href="#">免费注册</a>
+			</div>
+			<div class="fr clearfix">
+				<div class="menu1">
+					<div class="title1">
+						<a href="#">我的淘宝</a>
+					</div>
+					<div class="cont1">
+						<a href="#">已买到的宝贝</a>
+						<a  href="#">已卖出的宝贝</a>
+					</div>
+				</div>
+				<a  href="#"><i class="iconfont  icon-shopcart"></i></a>
+				<a  href="#">购物车0件</a>
+				<div class="menu2">
+					<div class="title2">
+						<a href="#">收藏夹</a>
+					</div>
+					<div class="cont2">
+						<a href="#">收藏的宝贝</a>
+						<a  href="#">收藏的店铺</a>
+					</div>
+				</div>
+				<ul>
+					<li class="li1">|</li>
+					<li>
+						<div class="menu3">
+							<div class="title3">
+								<i class="iconfont icon-shouji"></i>
+								<a href="#">手机版</a>
+							</div>
+							<div class="cont3">
+								<img src="assets/images/sm.png">
+							</div>
+						</div>	
+					</li>
+					<li><a href="#">淘宝网</a></li>
+					<li>
+						<div class="menu4">
+							<div class="title4">
+								<a href="#">商家支持</a>
+							</div>
+							<div class="cont4">
+								<ul>
+									<li>
+										<h3>商家:</h3>
+									</li>
+									<li>
+										<a href="#">商家中心</a>
+										<a href="#">天猫规则</a>
+									</li>
+									<li>
+										<a href="#">商家入驻</a>
+										<a href="#">运营服务</a>
+									</li>
+									<li>
+										<a href="#">商家品控</a>
+										<a href="#">商家工具</a>
+									</li>
+									<li>
+										<a href="#">天猫智库</a>
+										<a href="#">喵言喵语</a>
+									</li>
+								</ul>
+								<p class="xian"></p>
+								<ul>
+									<li>
+										<h3>帮助:</h3>
+									</li>
+									<li>
+										<a href="#">帮助中心</a>
+										<a href="#">问商友</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="menu5">
+							<div class="title5">
+								<i class="iconfont icon-liebiao"></i>
+								<a href="#">网站导航</a>
+							</div>
+							<div class="cont5  clearfix">
+								<div class="cont51">
+									<h2>热点推荐Hot</h2>
+									<ul>
+										<li>
+											<a href="#">天猫超市</a>
+											<a href="#">喵鲜生</a>
+											<a href="#">科技新品</a>
+											<a href="#">女装新品</a>
+											<a href="#">酷玩街</a>
+										</li>
+										<li>
+											<a href="#">内衣新品</a>
+											<a href="#">试美妆</a>
+											<a href="#">运动新品</a>
+											<a href="#">时尚先生</a>
+											<a href="#">精明妈咪</a>
+										</li>
+										<li>
+											<a href="#">吃乐会</a>
+											<a href="#">企业采购</a>
+											<a href="#">会员积分</a>
+											<a href="#">天猫国际</a>
+											<a href="#">品质频道</a>
+										</li>
+									</ul>
+								</div>
+								<!-- <span>|</span> -->
+								<div class="cont52">
+									<h2>行业市场Market</h2>
+									<ul>
+										<li>
+												<a href="#">吃乐会</a>
+												<a href="#">企业采购</a>
+												<a href="#">会员积分</a>
+												<a href="#">天猫国际</a>
+												<a href="#">品质频道</a>
+										</li>
+										<li>
+												<a href="#">吃乐会</a>
+												<a href="#">企业采购</a>
+												<a href="#">会员积分</a>
+												<a href="#">天猫国际</a>
+												<a href="#">品质频道</a>
+										</li>
+										<li>
+												<a href="#">吃乐会</a>
+												<a href="#">企业采购</a>
+												<a href="#">会员积分</a>
+												<a href="#">天猫国际</a>
+												<a href="#">品质频道</a>
+										</li>
+									</ul>
+								</div>
+								<div class="cont53">
+									<h2>服务指南Help</h2>
+									<ul>
+										<li>
+											<a href="#">帮助中心</a>
+											<a href="#">品质保障</a>
+										</li>
+										<li>
+											<a href="#">特色服务</a>
+											<a href="#">7天退换货</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--导航结束-->
+	<!--logo开始-->
+	<div  class="logo-wrap">
+	<div class="logo area clearfix">
+		<div class="fl">
+			<div class="logopic clearfix">
+				<img src="assets/images/logo.png">
+			</div>
+		</div>
+		<input 	type="text" placeholder="连衣裙" class="cloth">
+		<button>搜索</button>	
+		<div class="wz">
+			<a href ="#">长袖连衣裙</a>
+			<span>|</span>
+			<a href ="#">2017新</a>
+			<span>|</span>
+			<a href ="#">棉麻连衣裙</a>
+			<span>|</span>
+			<a href ="#">背心裙</a>
+			<span>|</span>
+			<a href ="#">衬衫</a>
+			<span>|</span>
+			<a href ="#">连衣裙秋冬</a>
+			<span>|</span>
+			<a href ="#">a字裙</a>
+		</div>
+		<img src="assets/images/hong.png" class="hong">
+	</div>
+	</div>
+	<!--logo结束-->
+	<!--分类标题开始-->
+	<div class="sort area clearfix">
+		<div class="sortz">
+			<a href="#">全部></a>
+			<form action="#" method="get" class="search">
+				<input type="text" name="qun" class="qun" placeholder="连衣裙" >
+				<a href="#"><img src="assets/images/sou.png"></a>
+			</form>
+		</div>
+		<div class="fr sorty">
+			<span>共<span class="num">1201266</span>件相关商品</span>
+		</div>
+	</div>
+	<!--分类标题结束-->
+	<!--分类内容开始-->
+	<div class="sortcon area clearfix">
+		<div class="con1">
+			<div class="fl pin">品牌</div>
+			<div class="fl pic">
+				<span><img src="assets/images/han.png"></span>
+				<span><img src="assets/images/VE.png"></span>
+				<span><img src="assets/images/ONLY.png"></span>
+				<span><img src="assets/images/li.png"></span>
+				<span><img src="assets/images/ZARA.png"></span>
+				<span><img src="assets/images/qi.jpg"></span>
+				<span><img src="assets/images/hai.jpg"></span>
+				<span><img src="assets/images/la.jpg"></span>
+				<span><img src="assets/images/ling.png"></span>
+				<span><img src="assets/images/UR.jpg"></span>
+				<span><img src="assets/images/lie.png"></span>
+				<span><img src="assets/images/oc.png"></span>
+				<span><img src="assets/images/PEA.jpg"></span>
+				<span><img src="assets/images/san.png"></span>
+			</div>
+			<div class="fr duo">
+				<a href="#" class="duo1">+多选</a>
+				<a href="#">更多</a>
+			</div>
+		</div>
+		<div class="con2 clearfix">
+			<div class="fl con21">品牌女装</div>
+			<div class="fl con22">
+				<a href="#" class="con22l">连衣裙</a>
+				<a href="#">时尚连衣裙</a>
+				<a href="#">2016新款</a>
+				<a href="#">长袖连衣裙</a>
+				<a href="#" class="con221">大码女装</a>
+				<a href="#" class="con221">棉麻连衣裙</a>
+			</div>
+		</div>
+		<div class="con3 clearfix">
+			<div class="fl con31">其他分类</div>
+			<div class="fl con32">
+				<a href="#">童装/亲子装</a>
+				<a href="#">孕妇装/孕妈用品专区</a>
+				<a href="#">服饰配件/皮带/帽子/围巾</a>
+				<a href="#">女士内衣/男士内衣</a>
+				<a href="#" class="con321">T恤</a>
+			</div>
+			<a href="#" class="fr geng">更多</a>
+		</div>
+		<div class="con4 clearfix">
+			<div class="fl con41">袖长</div>
+			<div class="fl con42">
+				<a href="#">长袖</a>
+				<a href="#">七分袖</a>
+ 				<a href="#">九分袖</a>
+				<a href="#">无袖</a>
+				<a href="#">短袖</a>
+				<a href="#">五分袖</a>
+			</div>
+		</div>
+		<div class="con4 clearfix">
+			<div class="fl con41">裙型</div>
+			<div class="fl con42">
+				<a href="#">A字裙</a>
+				<a href="#">一步裙</a>
+ 				<a href="#">大摆裙</a>
+				<a href="#">荷叶裙</a>
+				<a href="#">百褶裙</a>
+				<a href="#">铅笔裙</a>
+			</div>
+		</div>
+		<div class="con4 clearfix">
+			<div class="fl con41">领型</div>
+			<div class="fl con42">
+				<a href="#">圆领</a>
+				<a href="#">V领</a>
+ 				<a href="#">立领</a>
+				<a href="#">半高领</a>
+				<a href="#">高领</a>
+				<a href="#">连帽</a>
+			</div>
+		</div>
+		<div class="con5 area"></div>
+		<div class="fr con6">更多选项</div>
+	</div>
+	<!---分类内容结束-->
+	<!--图片详情开始-->
+	<div class="zong area clearfix">
+		<div class="fl zong1">
+			<div class="he">
+				<a href="#" class="zong11">综合↓</a>
+				<a href="#">人气↓</a>
+				<a href="#">新品↓</a>
+				<a href="#">销量↓</a>
+				<a href="#" class="zong12">价格<span class="zong121">▼</span><span class="zong122">▲</span></a>
+			</div>
+			<div class="he2">
+				<span class="he21">收货地:</span>
+				<span class="he22">吉林</span>
+			</div>
+			<input type="text" placeholder="¥请输入最低价" name="lowprice">
+			<span>-</span>
+			<input type="text" placeholder="¥请输入最高价" name="highprice">
+			<div class="ys">
+				<input type="checkbox">
+				<img src="assets/images/ys.png">
+				<input type="checkbox">
+				<span>新到商品</span>
+				<input type="checkbox">
+				<span>包邮</span>
+				<a href="#">更多<span>∨</span></a>
+			</div>
+			<div class="dian">
+				<span><img src="assets/images/dian.png">店铺</span>
+				<span><img src="assets/images/da.png">大图</span>
+			</div>
+		</div>
+		<div class="fr zong2">
+			<span>1/80</span>
+			<span><</span>
+			<span>></span>
+		</div>
+	</div>
+	<!--图片详情结束-->
+	<!--瀑布流开始-->
+	<div id="pua">
+		<ul class="pu area clearfix">
+			<li>
+				<img src="assets/images/1.jpg">
+				<img src="assets/images/1.jpg" class="small">
+				<p class="pri">¥338.00</p>
+				<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+				<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">139笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">1814</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+			<li class="pu1">
+				<img src="assets/images/2.jpg">
+				<img src="assets/images/2.jpg" class="small">
+				<p class="pri">¥350.00</p>
+				<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+				<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">139笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">1814</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+			<li class="pu1">
+				<img src="assets/images/3.jpg">
+				<img src="assets/images/3.jpg" class="small">
+				<p class="pri">¥423.00</p>
+				<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+				<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">198笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">1859</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+			<li class="pu1">
+				<img src="assets/images/4.jpg">
+				<img src="assets/images/4.jpg" class="small">
+				<p class="pri">¥321.00</p>
+				<p><a href="#" class="yi">丹慕2018秋冬装高领长袖连衣裙子花呢</a></p>
+				<p><a href="#" class="hai">丹慕妮尔旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">500笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">3000</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+			<li class="pu1">
+				<img src="assets/images/5.jpg">
+				<img src="assets/images/5.jpg" class="small">
+				<p class="pri">¥856.00</p>
+				<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+				<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">120笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">2000</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+		</ul>
+		<ul class="pu area clearfix">
+			<li>
+				<img src="assets/images/10.jpg">
+				<img src="assets/images/10.jpg" class="small">
+				<p class="pri">¥338.00</p>
+				<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+				<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">139笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">1814</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+			<li class="pu1">
+				<img src="assets/images/6.jpg">
+				<img src="assets/images/6.jpg" class="small">
+				<p class="pri">¥350.00</p>
+				<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+				<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">139笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">1814</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+			<li class="pu1">
+				<img src="assets/images/7.jpg">
+				<img src="assets/images/7.jpg" class="small">
+				<p class="pri">¥423.00</p>
+				<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+				<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">198笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">1859</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+			<li class="pu1">
+				<img src="assets/images/8.jpg">
+				<img src="assets/images/8.jpg" class="small">
+				<p class="pri">¥321.00</p>
+				<p><a href="#" class="yi">丹慕2018秋冬装高领长袖连衣裙子花呢</a></p>
+				<p><a href="#" class="hai">丹慕妮尔旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">500笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">3000</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+			<li class="pu1">
+				<img src="assets/images/9.jpg">
+				<img src="assets/images/9.jpg" class="small">
+				<p class="pri">¥856.00</p>
+				<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+				<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+				<p class="month">
+					<span class="trade">
+						月成交
+						<span class="num">120笔</span>
+					</span>
+					<span class="ping">
+						评价
+						<a href="#">2000</a>
+					</span>
+					<a href="#"><img src="assets/images/yu.png"></a>
+				</p>
+			</li>
+		</ul>
+		<ul class="pu area clearfix">
+		<li>
+			<img src="assets/images/11.jpg">
+			<img src="assets/images/11.jpg" class="small">
+			<p class="pri">¥338.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">139笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">1814</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/12.jpg">
+			<img src="assets/images/12.jpg" class="small">
+			<p class="pri">¥350.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">139笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">1814</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/13.jpg">
+			<img src="assets/images/13.jpg" class="small">
+			<p class="pri">¥423.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">198笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">1859</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/14.jpg">
+			<img src="assets/images/14.jpg" class="small">
+			<p class="pri">¥321.00</p>
+			<p><a href="#" class="yi">丹慕2018秋冬装高领长袖连衣裙子花呢</a></p>
+			<p><a href="#" class="hai">丹慕妮尔旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">500笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">3000</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/15.jpg">
+			<img src="assets/images/15.jpg" class="small">
+			<p class="pri">¥856.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">120笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">2000</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		</ul>
+		<ul class="pu area clearfix">
+		<li>
+			<img src="assets/images/16.jpg">
+			<img src="assets/images/16.jpg" class="small">
+			<p class="pri">¥338.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">139笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">1814</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/17.jpg">
+			<img src="assets/images/17.jpg" class="small">
+			<p class="pri">¥350.00</p>6
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">139笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">1814</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/18.jpg">
+			<img src="assets/images/18.jpg" class="small">
+			<p class="pri">¥423.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">198笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">1859</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/19.jpg">
+			<img src="assets/images/19.jpg" class="small">
+			<p class="pri">¥321.00</p>
+			<p><a href="#" class="yi">丹慕2018秋冬装高领长袖连衣裙子花呢</a></p>
+			<p><a href="#" class="hai">丹慕妮尔旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">500笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">3000</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/20.jpg">
+			<img src="assets/images/20.jpg" class="small">
+			<p class="pri">¥856.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">120笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">2000</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		</ul>
+	</div>
+	<!-- <ul></ul> -->
+	<!--瀑布流结束-->
+	<div class="page area">
+		<div class="pagep">
+			<a href="#" class="page1"><<上一页</a>
+			<a href="#" class="page2">1</a>
+			<a href="#" class="page3">2</a>
+			<a href="#" class="page4">3</a>
+		</div>
+		<span class="page5">...</span>
+		<a href="#" class="page6">下一页>></a>
+		<span class="page7">共80页,到第几<span class="page8">1</span>页</span>
+		<button class="page9">确定</button>
+	</div>
+	<div class="find area">
+		<span>您是不是想找</span>
+		<a href="#">长袖连衣裙</a>
+		<span>|</span>
+		<a href="#">棉麻长裙</a>
+		<span>|</span>
+		<a href="#">A字裙</a>
+		<span>|</span>
+		<a href="#">迷你裙</a>
+		<span>|</span>
+		<a href="#">半身裙</a>
+		<span>|</span>
+		<a href="#">衬衫</a>
+		<span>|</span>
+		<a href="#">雪纺裙</a>
+		<span>|</span>
+	</div>
+	<div class="hot area">
+		<div class="title">
+			<div class="fl hott">掌柜热卖</div>
+			<div class="fr hoto"><a href="#">更多热卖></a></div>
+		</div>
+	</div>
+		<ul class="pu area clearfix">
+		<li>
+			<img src="assets/images/11.jpg">
+			<img src="assets/images/11.jpg" class="small">
+			<p class="pri">¥338.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">139笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">1814</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/12.jpg">
+			<img src="assets/images/12.jpg" class="small">
+			<p class="pri">¥350.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">139笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">1814</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/13.jpg">
+			<img src="assets/images/13.jpg" class="small">
+			<p class="pri">¥423.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">198笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">1859</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/14.jpg">
+			<img src="assets/images/14.jpg" class="small">
+			<p class="pri">¥321.00</p>
+			<p><a href="#" class="yi">丹慕2018秋冬装高领长袖连衣裙子花呢</a></p>
+			<p><a href="#" class="hai">丹慕妮尔旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">500笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">3000</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+		<li class="pu1">
+			<img src="assets/images/15.jpg">
+			<img src="assets/images/15.jpg" class="small">
+			<p class="pri">¥856.00</p>
+			<p><a href="#" class="yi">海青蓝纯色简约立领通勤连衣裙</a></p>
+			<p><a href="#" class="hai">海青蓝旗舰店</a></p>
+			<p class="month">
+				<span class="trade">
+					月成交
+					<span class="num">120笔</span>
+				</span>
+				<span class="ping">
+					评价
+					<a href="#">2000</a>
+				</span>
+				<a href="#"><img src="assets/images/yu.png"></a>
+			</p>
+		</li>
+	</ul>
+	<div class="search2 area">
+		<input 	type="text" placeholder="连衣裙" class="cloth">
+		<button>搜索</button>	
+	</div>
+	<div class="fan area">
+		<img src="assets/images/fan.png">
+		喵~在此反馈您的意见和建议吧,
+		<a href="#">立即反馈</a>
+	</div>
+	<hr color="#ccc">
+	<!--尾部开始-->
+	<div class="foot">
+		<div class="footer area">
+			<div class="footer1">
+				<a href="#"><img src="assets/images/yo.png"></a>
+				<a href="#"><img src="assets/images/qi.png"></a>
+				<a href="#"><img src="assets/images/te.png" class="te"></a>
+				<a href="#"><img src="assets/images/bang.png" class="bang"></a>
+			</div>
+			<div class="footer2">
+				<ul>
+					<li><h3>购物指南</h3></li>
+					<li><a href="#">免费注册</a></li>
+					<li><a href="#">开通支付宝</a></li>
+					<li><a href="#">支付宝充值</a></li>
+				</ul>
+				<ul>
+					<li><h3>天猫保障</h3></li>
+					<li><a href="#">发票保障</a></li>
+					<li><a href="#">售后规则</a></li>
+					<li><a href="#">缺货赔付</a></li>
+				</ul>
+				<ul>
+					<li><h3>支付方式</h3></li>
+					<li><a href="#">快捷支付</a></li>
+					<li><a href="#">信用卡</a></li>
+					<li><a href="#">余额宝</a></li>
+					<li><a href="#">蚂蚁花呗</a></li>
+					<li><a href="#">货到付款</a></li>
+				</ul>
+				<ul>
+					<li><h3>商家服务</h3></li>
+					<li><a href="#">天猫规则</a></li>
+					<li><a href="#">商家入驻</a></li>
+					<li><a href="#">商家中心</a></li>
+					<li><a href="#">天猫智库</a></li>
+					<li><a href="#">物流服务</a></li>
+					<li><a href="#">喵言喵语</a></li>
+					<li><a href="#">运营服务</a></li>
+				</ul>
+				<ul>
+					<li><h3>手机天猫</h3></li>
+					<li><a href="#"><img src="assets/images/fma.png"></a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="footer3">
+				<img src="assets/images/mao.png" class="mao">
+				<div class="footer31">
+				<a href="#">关于天猫</a>
+				<a href="#">帮助中心</a>
+				<a href="#">开放平台</a>
+				<a href="#">诚聘英才</a>
+				<a href="#">联系我们</a>
+				<a href="#">网站合作</a>
+				<a href="#">法律声明</a>
+				<a href="#">隐私权政策</a>
+				<a href="#">知识产权</a>
+				<a href="#">廉正举报</a>
+			</div>
+			<div class="footer32">
+				<a href="#">阿里巴巴集团</a>
+				<a href="#">淘宝网</a>
+				<a href="#">天猫</a>
+				<a href="#">聚划算</a>
+				<a href="#">全球速卖通</a>
+				<a href="#">阿里巴巴国际交易市场</a>
+				<a href="#">1688</a>
+				<a href="#">阿里妈妈</a>
+				<a href="#">飞猪</a>
+				<a href="#">阿里云计算</a>
+				<a href="#">AliOS</a>
+				<a href="#">阿里通信</a>
+				<a href="#">万网</a>
+				<a href="#">高德</a>
+				<a href="#">UC</a>
+				<a href="#">友盟</a>
+				<a href="#">虾米</a>
+				<a href="#">钉钉</a>
+				<a href="#">支付宝</a>
+			</div>
+			<div class="footer33">
+				<span> 增值电信业务经营许可证：<a href="#">浙B2-20110446</a>
+				</span>
+				<span>
+				网络文化经营许可证：<a href="#">浙网文[2015]0295-065号</a>
+				</span>
+				<a href="#">12318举报</a>
+				<a href="#">出版物网络交易平台服务经营备案证： 新出发浙备字第001号
+				</a>
+			</div>
+			<div class="footer34">
+				<span>
+					互联网违法和不良信息举报电话：0571-81683755blxxjb@alibaba-inc.com
+				</span>
+				<span>互联网药品信息服务资质证书编号：<a href="#">浙-（经营性）-2017-0005</a></span>
+				<span>
+					<img src="assets/images/6.png">
+					<a href="#" class="zhe">浙公网安备浙公网安备  33010002000120号</a>
+				</span>
+			</div>
+			<div class="footer35">（浙）网械平台备字[2018]第00002号
+			</div>
+			<div class="footer36">
+				&copy;2003-2018 TMALL.COM 版权所有
+			</div>
+			</div>
+	</div>
+	<!--尾部结束-->
+	<!--瀑布流结束-->
+	
+	<script src="assets/js/list.js"></script>
+</body>
+</html>

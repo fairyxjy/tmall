@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>详情页</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/details.css">
+	<link rel="stylesheet" href="assets/css/iconfont.css">
+	<script src="assets/js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<!--导航开始-->
+		<div class="nav-wrap clearfix">
+		<div class="nav area">
+			<div class="fl">
+				<span>喵,欢迎来天猫</span>
+				<a href="../login/login.html">请登录</a>
+				<a href="../register/register.html">免费注册</a>
+			</div>
+			<div class="fr clearfix">
+				<div class="menu1">
+					<div class="title1">
+						<a href="#">我的淘宝</a>
+					</div>
+					<div class="cont1">
+						<a href="#">已买到的宝贝</a>
+						<a  href="#">已卖出的宝贝</a>
+					</div>
+				</div>
+				<a  href="#"><i class="iconfont icon-shopcart"></i></a>
+				<a  href="#">购物车0件</a>
+				<div class="menu2">
+					<div class="title2">
+						<a href="#">收藏夹</a>
+					</div>
+					<div class="cont2">
+						<a href="#">收藏的宝贝</a>
+						<a  href="#">收藏的店铺</a>
+					</div>
+				</div>
+				<ul>
+					<li class="li1">|</li>
+					<li>
+						<div class="menu3">
+							<div class="title3">
+								<a href="#">手机版</a>
+							</div>
+							<div class="cont3">
+								<img src="assets/images/sm.png">
+							</div>
+						</div>	
+					</li>
+					<li><a href="#">淘宝网</a></li>
+					<li>
+						<div class="menu4">
+							<div class="title4">
+								<a href="#">商家支持</a>
+							</div>
+							<div class="cont4">
+								<ul>
+									<li>
+										<h3>商家:</h3>
+									</li>
+									<li>
+										<a href="#">商家中心</a>
+										<a href="#">天猫规则</a>
+									</li>
+									<li>
+										<a href="#">商家入驻</a>
+										<a href="#">运营服务</a>
+									</li>
+									<li>
+										<a href="#">商家品控</a>
+										<a href="#">商家工具</a>
+									</li>
+									<li>
+										<a href="#">天猫智库</a>
+										<a href="#">喵言喵语</a>
+									</li>
+								</ul>
+								<p class="xian"></p>
+								<ul>
+									<li>
+										<h3>帮助:</h3>
+									</li>
+									<li>
+										<a href="#">帮助中心</a>
+										<a href="#">问商友</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="menu5">
+							<div class="title5">
+								<i class="iconfont icon-liebiao"></i>
+								<a href="#">网站导航</a>
+							</div>
+							<div class="cont5  clearfix">
+								<div class="cont51">
+									<h2>热点推荐Hot</h2>
+									<ul>
+										<li>
+											<a href="#">天猫超市</a>
+											<a href="#">喵鲜生</a>
+											<a href="#">科技新品</a>
+											<a href="#">女装新品</a>
+											<a href="#">酷玩街</a>
+										</li>
+										<li>
+											<a href="#">内衣新品</a>
+											<a href="#">试美妆</a>
+											<a href="#">运动新品</a>
+											<a href="#">时尚先生</a>
+											<a href="#">精明妈咪</a>
+										</li>
+										<li>
+											<a href="#">吃乐会</a>
+											<a href="#">企业采购</a>
+											<a href="#">会员积分</a>
+											<a href="#">天猫国际</a>
+											<a href="#">品质频道</a>
+										</li>
+									</ul>
+								</div>
+								<!-- <span>|</span> -->
+								<div class="cont52">
+									<h2>行业市场Market</h2>
+									<ul>
+										<li>
+												<a href="#">吃乐会</a>
+												<a href="#">企业采购</a>
+												<a href="#">会员积分</a>
+												<a href="#">天猫国际</a>
+												<a href="#">品质频道</a>
+										</li>
+										<li>
+												<a href="#">吃乐会</a>
+												<a href="#">企业采购</a>
+												<a href="#">会员积分</a>
+												<a href="#">天猫国际</a>
+												<a href="#">品质频道</a>
+										</li>
+										<li>
+												<a href="#">吃乐会</a>
+												<a href="#">企业采购</a>
+												<a href="#">会员积分</a>
+												<a href="#">天猫国际</a>
+												<a href="#">品质频道</a>
+										</li>
+									</ul>
+								</div>
+								<div class="cont53">
+									<h2>服务指南Help</h2>
+									<ul>
+										<li>
+											<a href="#">帮助中心</a>
+											<a href="#">品质保障</a>
+										</li>
+										<li>
+											<a href="#">特色服务</a>
+											<a href="#">7天退换货</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--导航结束-->
+	<!--logo开始-->
+	<div  class="logo-wrap">
+	<div class="logo area clearfix">
+		<div class="fl">
+			<div class="logopic clearfix">
+				<img src="assets/images/logo.png">
+			</div>
+			<div class="qi">
+				<p class="qi1"><a href="#">雪亮家居旗舰店</a></p>
+				<p class="qi2">品牌直销</p>
+				<a href="#"><img src="assets/images/chat.png"></a>
+			</div>
+			<div class="miao">
+				<p class="qi1">描&nbsp;述&nbsp;服&nbsp;务&nbsp;物&nbsp;流</p>
+				<p class="miao1">
+					<span>4.8</span>
+					<span></span>
+					<span>4.7↓</span>
+					<span>4.7↓</span>
+				</p>
+			</div>
+			<div class="shou">手机逛</div>
+		</div>
+		<div class="fr">
+			<form action="#" method="get" class="search-box">
+				<div class="tishi">
+					<span>搜索</span>
+					<span>天猫</span>
+					<span>商品</span>
+					<span>/</span>
+					<span>品牌</span>
+					<span>/</span>
+					<span>店铺</span>
+					<input type="text" name="keys" class="keys">
+				</div>
+			<button>
+				<a href="#">搜天猫</a>
+			</button>
+			</form>
+			<button class="bd">搜本店</button>
+			<div class="wz">
+				<a href="#">纸巾</a>
+				<span>|</span>
+				<a href="#" class="wz1">卫生纸</a>
+				<span>|</span>
+				<a href="#">抽纸整箱</a>
+				<span>|</span>
+				<a href="#" class="wz1">纸巾抽纸</a>
+				<span>|</span>
+				<a href="#">抽纸</a>
+				<span>|</span>
+				<a href="#">纸巾抽纸整箱</a>
+				<span>|</span>
+				<a href="#" class="wz1">餐巾纸</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--logo结束-->
+	<!--雪亮图标开始-->
+	<div class="xl area">
+		<img src="assets/images/xue.png" class="xue">
+		<img src="assets/images/mei.png" class="mei">
+		<img src="assets/images/shi.png" class="shi">
+	</div>
+	<!--雪亮图标结束-->	
+	<!--导航开始-->
+	<div class="nav2-wrap">
+		<div class="nav2 area">
+			<div class="nav21">
+				<a href="#">全部宝贝</a>
+				<a href="#">首页</a>
+				<a href="#">新品上市</a>
+				<a href="#">热销组合</a>
+				<a href="#">卷纸</a>
+				<a href="#">抽纸</a>
+				<a href="#">湿巾</a>
+				<a href="#">母婴护理</a>
+			</div>
+		</div>
+	</div>
+	<!--导航结束-->
+	<!--放大镜开始-->
+	<div class="fang area">
+		<div id="small">
+			<img src="assets/images/sm1.jpg" id="smallpic">
+			<div id="move"></div>
+		</div>
+		<div id="big">
+			<img src="assets/images/sm1.jpg" id="bigpic">
+		</div>
+		<ul id="dian">
+			<li><img src="assets/images/sm1.jpg"></li>
+			<li><img src="assets/images/sm2.jpg"></li>
+			<li><img src="assets/images/sm3.jpg"></li>
+			<li><img src="assets/images/sm4.jpg"></li>
+		</ul>
+		<div class="share">
+			<a href="#" class="sha1"><img src="assets/images/fen.png">分享</a>
+			<a href="#" class="sha1">★收藏商品</a>
+			<a href="#" class="sha2">举报</a>
+		</div>
+	<!--放大镜结束-->
+	<!--商品购买开始-->
+		<div class="cz">
+			<h3>抽纸批发整箱30包雪亮家庭装婴儿卫生纸巾家用餐巾纸面巾纸实惠装</h3>
+			<div class="cz1">整箱30包，经济实惠装</div>
+			<div class="cz2">
+				<p>
+					<span class="jia1">价格</span>
+					<del class="de1">¥99.99</del>
+				</p>
+				<p>
+					<span class="jia2">促销价</span>
+					<span class="de2">¥29.98</span>
+					<span class="hai">海抢购</span>
+				</p>
+			</div>
+			<div class="cz3">
+				<span>运费</span>
+				<span>河北保定&nbsp;&nbsp;至&nbsp;北京∨ 东城区∨</span>
+				<span>快递:0.00</span>
+			</div>
+			<div class="cz4">
+				<span class="cz41">
+					<span class="cz411">月销量</span>
+					<span class="cz412">554683</span>
+				</span>
+				<span class="cz41">
+					<a href="#" class="cz411">累计评价</a>
+					<a href="#" class="cz412">1051774</a>
+				</span>
+				<span class="cz42">
+					<a href="#"  class="cz421">送天猫积分</a>
+					<a href="#" class="cz422">14</a>
+				</span>
+			</div>
+			<div class="cz5">
+				<span class="cz51">数量</span>
+				<input type="text" value="1" class="cz52">
+				<a href="#" class="cz53">∧</a>
+				<a href="#" class="cz54">ⅴ</a>
+				<span class="cz55">件</span>
+				<span  class="cz56">库存7027件</span>
+			</div>
+			<div class="cz6">
+				<a href="#" class="cz61">立即购买</a>
+				<a href="#" class="cz62"><i class="iconfont icon-shopcart"></i>加入购物车</a>
+			</div>
+			<div class="cz7">
+				<span class="cz71">服务承诺</span>
+				<a href="#">破损包退</a>
+				<a href="#">正品保证</a>
+				<a href="#">极速退款</a>
+				<a href="#">七天无理由退换</a>
+				<a href="#" class="cz72">支付方式∨</a>
+				<div class="cz73">
+					<div class="cz731">
+						<a href="#"><img src="assets/images/xin.png">信用卡</a>
+						<a href="#"><img src="assets/images/kuai.png">快捷支付</a>
+						<a href="#"><img src="assets/images/bei.png">蚂蚁花呗</a>
+						<a href="#"><img src="assets/images/yu.png">余额宝</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--商品购买结束-->
+	<!--商品详情开始-->
+		<div class="qing area">
+			<div class="qingl">
+				<img src="assets/images/q1.png">
+				<img src="assets/images/q2.png">
+				<img src="assets/images/q3.jpg">
+				<img src="assets/images/q4.jpg">
+				<img src="assets/images/q5.png">
+				<img src="assets/images/q6.png">
+				<img src="assets/images/q7.png">
+				<img src="assets/images/q8.png">
+				<img src="assets/images/q9.jpg">
+			</div>
+			<div class="qingr">
+				<div class="head">
+					<a href="#" class="active">商品详情</a>
+					<a href="#" class="lei">累计评价<span>1052753</span></a>
+				</div>
+				<div class="xq">
+					<div class="xq1">
+						<p>品牌参数:雪亮</p>
+						<p>产品参数:</p>
+						<p>
+							<span>品牌: 雪亮</span>
+							<span>型号: XL-3724(新亮纯)</span>
+							<span>面巾纸种类: 抽取式面巾纸</span>
+						</p>
+						<p>
+							<span>层数:4层</span>
+							<span>原材料成分: 原生浆</span>
+							<span>产地: 中国大陆</span>
+						</p>
+						<p>
+							<span>是否有香味: 无香</span>
+							<span>是否量贩装: 是</span>
+							<span>抽数: 其他</span>
+						</p>
+						<p>
+							<span>是否进口:国产</span>
+							<span>包数: 30包</span>
+						</p>
+					</div>
+					<img src="assets/images/wu.jpg">
+					<img src="assets/images/dan.jpg">
+					<img src="assets/images/shang.jpg">
+					<img src="assets/images/ping.jpg">
+					<img src="assets/images/shou.jpg">
+					<img src="assets/images/fa.jpg">
+					<img src="assets/images/jian.jpg">
+					<img src="assets/images/gei.jpg">
+					<img src="assets/images/ni.jpg">
+					<img src="assets/images/ying.jpg">
+					<img src="assets/images/you.jpg">
+					<img src="assets/images/shi.jpg">
+					<img src="assets/images/rong.jpg">
+					<img src="assets/images/xing.jpg">
+					<img src="assets/images/tian.jpg">
+					<img src="assets/images/chan.jpg">
+					<img src="assets/images/shuo.png" class="shuo">
+					<div class="ping">
+						<p class="ping1">累计评价 1051769</p>
+						<div class="ping2">
+							<span class="ping21">
+								<p>与描述相符</p>
+								<p>4.8</p>
+								<img src="assets/images/wu.png" class="wu">
+							</span>
+							<span class="ping22">
+								<span class="ping221">大家都写到</span>
+								<span class="ping222">
+									<a href="#">挺便宜的(45856)</a>
+									<a href="#">质量也很好(41392)</a>
+									<a href="#">纸质也很好(11425)</a>
+									<a href="#">物流很快(10760)</a>
+									<a href="#"class="gao">性价比很高(2788)</a>
+									<a href="#" class="gao">大小还好吧(2088)</a>
+									<a href="#" class="zhi">纸容易烂(5007)</a>
+								</span>
+							</span>
+						</div>
+						<div class="ping3">
+							<input type="radio" name="radio1" checked=""><label>全部</label>
+							<input type="radio" name="radio1"><label>追评(34224)</label>
+							<input type="radio" name="radio1"><label>图片(73854)</label>
+							<span class="ping31">
+								<input type="checkbox" name="check" checked="">
+								有内容
+							</span>
+							<span class="ping32">
+								<span class="title">
+									按默认&nbsp;&nbsp;∨
+								</span>
+								<div class="cont">
+									<div>按默认</div>
+									<div>按时间</div>
+								</div>
+							</span>
+						</div>
+						<div class="ping4">
+							<span class="ping41">
+								快递收到了，雪亮抽取式面巾纸，小包易携带，家庭用也很节约。而且30包也很耐用。生产日期很新鲜，纸质也不错，值得信赖，用来给宝宝擦口水也可以，下吧不红，也不起皮，纸巾也比较软，厚实也不烂，一点味道都没有，不掉纸屑，非常有韧性，孩子也喜欢用，大小也很适合宝宝，最实惠的还是价格，相对比超市的性价比来说是蛮高了，值得购买值得好评
+							</span>
+							<span class="yu">小***美<span class="ni">(匿名)</span></span>
+							<div class="ping42">
+								<img src="assets/images/p1.jpg">
+								<img src="assets/images/p2.jpg">
+								<img src="assets/images/p3.jpg">
+							</div>
+							<div class="ping43">10.27</div>
+						</div>
+						<div class="ping4">
+							<span class="ping41">
+								买东西习惯性的找旗舰店，小小的纸巾也是一样，虽然小， 但也是生活必须品，都要用的，所以也不能马虎，挑来选去，看中这家雪亮的，还有是方琼代言的，会觉得靠谱很多，到货也没有让人失望，真心很不错，挺划算，每包算下来才几毛钱，挺不错的， 比一般的纸感觉还要厚一点，而且手感也挺细的，沾水用也没问题，厚实不破，一箱数量也不少！
+							</span>
+							<span class="yu">雨***多<span class="ni">(匿名)</span></span>
+							<div class="ping42">
+								<img src="assets/images/p1.jpg">
+								<img src="assets/images/ni.jpg">
+								<img src="assets/images/jian.jpg">
+							</div>
+							<div class="ping43">10.28</div>
+						</div>
+						<div class="ping4">
+							<span class="ping41">
+								很不错，上次洗衣服的时候牛仔裤里放了一张这个纸巾，忘记拿出来，一直在里面搅，洗完才发现裤兜里还有纸，拿出来还是完整的，不像一般的那种搅了就烂成碎沫了，衣服任那都是白白的跟毛一样沾在衣服上。这个亲测过真心的不错，纸质非常有韧性，不易破，还很柔软，不伤皮肤，也没有味道，一点粉尘都没有，大小用的时候也很方便，节省，尤其适合给小孩用。
+							</span>
+							<span class="yu">爱***0<span class="ni">(匿名)</span></span>
+							<div class="ping42">
+								<img src="assets/images/q5.png">
+								<img src="assets/images/q7.png">
+								<img src="assets/images/q8.png">
+							</div>
+							<div class="ping43">10.29</div>
+						</div>
+						<div class="ping4">
+							<span class="ping41">
+								很不错，上次洗衣服的时候牛仔裤里放了一张这个纸巾，忘记拿出来，一直在里面搅，洗完才发现裤兜里还有纸，拿出来还是完整的，不像一般的那种搅了就烂成碎沫了，衣服任那都是白白的跟毛一样沾在衣服上。这个亲测过真心的不错，纸质非常有韧性，不易破，还很柔软，不伤皮肤，也没有味道，一点粉尘都没有，大小用的时候也很方便，节省，尤其适合给小孩用。
+							</span>
+							<span class="yu">SI***H<span class="ni">(匿名)</span></span>
+							<div class="ping42">
+								<img src="assets/images/q1.png">
+								<img src="assets/images/q2.png">
+								<img src="assets/images/q3.jpg">
+							</div>
+							<div class="ping43">10.29</div>
+						</div>
+					</div>
+					<hr color="#ccc">
+					<div class="ye">
+						<a href="#" class="ye1"><<上一页</a>
+						<a href="#" class="ye2">1</a>
+						<a href="#" class="ye3">2</a>
+						<a href="#" class="ye3">3</a>
+						<span>...</span>
+						<a href="#">下一页>></a>
+					</div>
+					<div class="use">试用报告</div>
+					<img src="assets/images/yong.png">
+					<img src="assets/images/kuang.png" class="kuang">
+					<div>
+						<img src="assets/images/warn.png" class="warn">
+					</div>
+				</div>
+			</div>                                                         
+		</div>
+		<!--商品详情结束-->
+		<hr>
+		<!--尾部开始-->
+	<div class="foot">
+		<div class="footer area">
+			<div class="footer1">
+				<a href="#"><img src="assets/images/yo.png"></a>
+				<a href="#"><img src="assets/images/qi.png"></a>
+				<a href="#"><img src="assets/images/te.png" class="te"></a>
+				<a href="#"><img src="assets/images/bang.png" class="bang"></a>
+			</div>
+			<div class="footer2">
+				<ul>
+					<li><h3>购物指南</h3></li>
+					<li><a href="#">免费注册</a></li>
+					<li><a href="#">开通支付宝</a></li>
+					<li><a href="#">支付宝充值</a></li>
+				</ul>
+				<ul>
+					<li><h3>天猫保障</h3></li>
+					<li><a href="#">发票保障</a></li>
+					<li><a href="#">售后规则</a></li>
+					<li><a href="#">缺货赔付</a></li>
+				</ul>
+				<ul>
+					<li><h3>支付方式</h3></li>
+					<li><a href="#">快捷支付</a></li>
+					<li><a href="#">信用卡</a></li>
+					<li><a href="#">余额宝</a></li>
+					<li><a href="#">蚂蚁花呗</a></li>
+					<li><a href="#">货到付款</a></li>
+				</ul>
+				<ul>
+					<li><h3>商家服务</h3></li>
+					<li><a href="#">天猫规则</a></li>
+					<li><a href="#">商家入驻</a></li>
+					<li><a href="#">商家中心</a></li>
+					<li><a href="#">天猫智库</a></li>
+					<li><a href="#">物流服务</a></li>
+					<li><a href="#">喵言喵语</a></li>
+					<li><a href="#">运营服务</a></li>
+				</ul>
+				<ul>
+					<li><h3>手机天猫</h3></li>
+					<li><a href="#"><img src="assets/images/fma.png"></a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="footer3">
+				<img src="assets/images/mao.png" class="mao">
+				<div class="footer31">
+				<a href="#">关于天猫</a>
+				<a href="#">帮助中心</a>
+				<a href="#">开放平台</a>
+				<a href="#">诚聘英才</a>
+				<a href="#">联系我们</a>
+				<a href="#">网站合作</a>
+				<a href="#">法律声明</a>
+				<a href="#">隐私权政策</a>
+				<a href="#">知识产权</a>
+				<a href="#">廉正举报</a>
+			</div>
+			<div class="footer32">
+				<a href="#">阿里巴巴集团</a>
+				<a href="#">淘宝网</a>
+				<a href="#">天猫</a>
+				<a href="#">聚划算</a>
+				<a href="#">全球速卖通</a>
+				<a href="#">阿里巴巴国际交易市场</a>
+				<a href="#">1688</a>
+				<a href="#">阿里妈妈</a>
+				<a href="#">飞猪</a>
+				<a href="#">阿里云计算</a>
+				<a href="#">AliOS</a>
+				<a href="#">阿里通信</a>
+				<a href="#">万网</a>
+				<a href="#">高德</a>
+				<a href="#">UC</a>
+				<a href="#">友盟</a>
+				<a href="#">虾米</a>
+				<a href="#">钉钉</a>
+				<a href="#">支付宝</a>
+			</div>
+			<div class="footer33">
+				<span> 增值电信业务经营许可证：<a href="#">浙B2-20110446</a>
+				</span>
+				<span>
+				网络文化经营许可证：<a href="#">浙网文[2015]0295-065号</a>
+				</span>
+				<a href="#">12318举报</a>
+				<a href="#">出版物网络交易平台服务经营备案证： 新出发浙备字第001号
+				</a>
+			</div>
+			<div class="footer34">
+				<span>
+					互联网违法和不良信息举报电话：0571-81683755blxxjb@alibaba-inc.com
+				</span>
+				<span>互联网药品信息服务资质证书编号：<a href="#">浙-（经营性）-2017-0005</a></span>
+				<span>
+					<img src="assets/images/6.png">
+					<a href="#" class="zhe">浙公网安备浙公网安备  33010002000120号</a>
+				</span>
+			</div>
+			<div class="footer35">（浙）网械平台备字[2018]第00002号
+			</div>
+			<div class="footer36">
+				&copy;2003-2018 TMALL.COM 版权所有
+			</div>
+			</div>
+	</div>
+	<!--尾部结束-->
+	<script src="assets/js/details.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+/*logo样式*/
+.logo{
+	width:1200px;
+	height:100px;
+	line-height:100px;
+	margin:0 auto;
+}
+.logo img{
+	float:left;
+	width:200px;
+	height:60px;
+	margin-top:30px;
+}
+/*登录样式*/
+.dl{
+	width:100%;
+	height:600px;
+    background-color: rgb(255, 91, 102);
+	position:relative;
+}
+.dl .fs{
+	position:absolute;
+	left:145px;
+	height:600px;
+}
+.dl .deng{
+	position:absolute;
+	top:80px;
+	left:1000px;
+	width:350px;
+	height:400px;
+	background:#fff;
+}
+.dl .deng .lu{
+	width:118px;
+	height:25px;
+	vertical-align:middle;
+	font-size:12px;
+	border:1px solid #df9c1f;
+	position:absolute;
+	left:145px;
+	top:15px;
+	color:#df9c1f;
+}
+.dl .deng .lu .lu1{
+	width:15px;
+	height:20px;
+	vertical-align:middle;
+}
+.dl .deng .lu  .lu2{
+	display:inline-block;
+	font-size:12px;
+	vertical-align:middle;
+}
+.dl .deng .ma{
+	position:absolute;
+	left:265px;
+	top:13px;
+}
+.dl .deng .mi{
+	position:absolute;
+	left:30px;
+	top:60px;
+	font:16px  "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;;
+	color: #3c3c3c;
+	font-weight:bold;
+}
+/*用户名*/
+.tou{
+	width: 40px;
+    height: 37px;
+    position: absolute;
+    top: 102px;
+    left: 34px;
+}
+.keys{
+	width:250px;
+	height:35px;
+	position: absolute;
+	top:101px;
+	left:33px;
+}
+.keys1{
+	width:150px;
+	height:31px;
+	position: absolute;
+	top: 103px;
+    left: 86px;
+	border:0;
+}
+button{
+	border: 0;
+	border-radius:50%;
+	background:#606060;
+	color:#fff;
+	padding:2px 5px;
+	position: absolute;
+	left: 260px;
+    top: 109px;
+}
+.yz{
+	position: absolute;
+	top: 109px;
+	left:298px;
+}
+/*密码*/
+.pas{
+	width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 174px;
+    left: 34px;
+}
+.wor{
+	width:250px;
+	height:36px;
+	position: absolute;
+	top:172px;
+	left:33px;
+}
+.word{
+	width:150px;
+	height:31px;
+	position: absolute;
+	top: 175px;
+    left: 86px;
+	border:0;
+	outline: 0;
+}
+.he{
+	position: absolute;
+	top: 181px;
+	left:298px;
+}
+.dl .deng .tj{
+	position:absolute;
+	top:240px;
+	left:30px;
+	color:#fff;
+	width: 250px;
+    height: 42px;
+    line-height: 42px;
+    background: #ff0036;
+    border:0;
+    font:14px "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    border-radius: 3px;
+}
+.dl .deng .wj{
+	position:absolute;
+	top:318px;
+	left:78px;
+}
+.dl .deng .wj a{
+	font-size:12px;
+	color: #6c6c6c;
+	margin-left:10px;
+}
+.dl .deng .wj a:hover{
+	color:#ff0036;
+}
+/*.keys:click .yh{
+	background:#f00;
+}*/
+/*底部样式*/
+.footer{
+	width:1200px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.footer .footer1 a{
+	color:#000;
+	margin-right:3px;
+	font: 12px tahoma,arial,"\5b8b\4f53";
+}
+.footer .footer1 a:hover{
+	text-decoration: underline;
+}
+.footer .footer2{
+	margin:20px 0 10px 0;
+}
+.footer .footer2 a{
+	color:#000;
+	margin-right:3px;
+	font: 12px tahoma,arial,"\5b8b\4f53";
+}
+.footer .footer2 a:hover{
+	text-decoration: underline;
+}
+.footer .footer3 span{
+	color:#666;
+	font: 12px tahoma,arial,"\5b8b\4f53";
+}
+.footer .footer3 a{
+	color:#999;
+	font: 12px tahoma,arial,"\5b8b\4f53";
+	margin-right: 65px;
+}
+.footer .footer3 a:hover{
+	text-decoration: underline;
+}
+.footer .footer4{
+	margin:5px 0 3px 0;
+}
+.footer .footer4 span{
+	color:#666;
+	font: 12px tahoma,arial,"\5b8b\4f53";
+	margin-right:65px;
+}
+.footer .footer4 a{
+	color:#999;
+	font: 12px tahoma,arial,"\5b8b\4f53";
+}
+.footer .footer4 span img{
+	vertical-align: middle;
+}
+.footer .footer4 a:hover{
+	text-decoration:underline;
+}
+.footer .footer5{
+	color:#666;
+	font: 12px tahoma,arial,"\5b8b\4f53";
+}
+.footer .footer6{
+	color:#999;
+	font: 12px tahoma,arial,"\5b8b\4f53";
+	margin:5px 0 30px 0;
+}

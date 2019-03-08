@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>注册页面</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/register.css">
+	<script src="assets/js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<!--头部开始-->
+		<div class="head clearfix">
+			<div class="head1">
+				<span class="head11">1</span>
+				<span class="head12">设置用户名</span>
+			</div>
+			<div class="head2">
+				<span class="head21">2</span>
+				<span class="head22">填写账号信息</span>
+			</div>
+			<div class="head2">
+				<span class="head21">3</span>
+				<span class="head22">设置支付方式</span>
+			</div>
+			<div class="head2">
+				<span class="head21">✔</span>
+				<span class="head22">注册成功</span>
+			</div>
+		</div>
+	<!--头部结束-->
+	<!--注册开始-->
+	<div id="bar" class="barr">
+		<span class="sj">手机号</span>
+		<select name="country" class="sel">
+			<option value="1" selected>
+				<span class="sel1">中国大陆</span><span class="sel2">+86</span>
+			</option>
+			<option value="2"><span class="sel1">中国台湾地区</span><span class="sel2">+886</span></option>
+			<option value="3"><span class="sel1">中国香港</span><span class="sel2">+852</span></option>
+			<option value="4"><span class="sel1">马来西亚</span><span class="sel2">+60</span></option>
+		</select>
+		<input type="text" placeholder="请输入你的手机号码">	
+		<div class="bar1">
+			<span class="yz">验证</span>
+			<span class="you">>></span>
+			<span class="an">请按住滑块,拖动到最右边</span>
+		</div>
+		<div class="xia">
+			<button>下一步</button>
+		</div>
+	</div>
+	<!--注册结束-->
+	<!--遮罩层开始-->
+	<div class="xiewrap">
+		<div id="show" class="xie">
+			<div class="yi">
+				<h3>注册协议</h3>
+				<span class="close">x</span>
+				<p><span class="shen">【审慎阅读】</span>您在申请注册流程中点击同意前，应当认真阅读以下协议。<span><b>请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</b></span></p>
+				<p>1、<span><b>与您约定免除或限制责任的条款；</b></span></p>
+				<p>2、<span><b>与您约定法律适用和管辖的条款；</b></span></p>
+				<p>3、<span><b>其他以粗体下划线标识的重要条款。</b></span></p>
+				<p>如您对协议有任何疑问，可向平台客服咨询。</p>
+				<p><span class="shen">【特别提示】</span>当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。</p>
+				<p><span><b>阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</b></span></p>
+				<p class="xy"><a href="#">《淘宝平台服务协议》</a></p>
+				<p class="xy"><a href="#">《法律声明及隐私权政策》</a></p>
+				<p class="xy"><a href="#">《支付宝服务协议》</a></p>
+				<p class="ty">
+					<button id="btn" class="tong">同意协议</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!--遮罩层结束-->
+	<!--拖拽小蜜开始-->
+	<div class="xm" id="sh">
+		<div class="xmpic">
+			
+		</div>
+		<ul>
+			<li>淘宝账户名是指什么？</li>
+			<li>忘记会员名，怎么找回？</li>
+			<li>忘记淘宝账号密码，怎么找回？</li>
+			<li>手机（停机、丢失等）收不到验证码，怎么办？</li>
+			<li>手机、邮箱正常使用，但是接收不到验证码，怎么办？</li>
+			<li class="zi">
+				<a href="#">咨询小蜜</a>
+				<img src="assets/images/3.png">
+			</li>
+		</ul>
+	</div>
+	<!--拖拽小蜜结束-->
+	<script src="assets/js/register.js"></script>
+</html>
